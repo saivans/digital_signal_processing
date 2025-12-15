@@ -35,8 +35,8 @@ Each signal is displayed in its own **tab**.
 
 | Signal   | Expression                                                     |
 | -------- | -------------------------------------------------------------- |
-| Signal 1 | (5\cos(2\pi·1000t))                                            |
-| Signal 2 | (5\cos(2\pi·2000t) + 3\cos(2\pi·3000t))                        |
+| Signal 1 | $$(5\cos(2\pi·1000t))$$                                        |
+| Signal 2 | $$(5\cos(2\pi·2000t) + 3\cos(2\pi·3000t))$$                    |
 | Signal 3 | (5\cos(2\pi·2000t) + \cos(2\pi·5000t))                         |
 | Signal 4 | (1 + \cos(2\pi·2000t) + 2\cos(2\pi·4000t) + 3\cos(2\pi·6000t)) |
 
