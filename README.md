@@ -59,7 +59,7 @@ t, x = generate_continuous_signal(sig_id)
 Each cosine produces **two impulses** in the frequency domain.
 Only **positive frequencies** are plotted for clarity.
 
-Amplitudes are scaled by (A/2), consistent with Fourier theory.
+Amplitudes are scaled by $(A/2)$, consistent with Fourier theory.
 
 ---
 
@@ -71,7 +71,7 @@ Sampling at:
 fs = 8000 Hz
 ```
 
-The spectrum is **replicated every (f_s)**:
+The spectrum is **replicated every $(f_s)$**:
 
 $$[
 X_s(f) = \sum_k X(f - kf_s)
