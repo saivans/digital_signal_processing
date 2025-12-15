@@ -33,12 +33,12 @@ Each signal is displayed in its own **tab**.
 
 ## 🧠 Signals Included
 
-| Signal   | Expression                                                     |
-| -------- | -------------------------------------------------------------- |
-| Signal 1 | $$(5\cos(2\pi·1000t))$$                                        |
-| Signal 2 | $$(5\cos(2\pi·2000t) + 3\cos(2\pi·3000t))$$                    |
-| Signal 3 | (5\cos(2\pi·2000t) + \cos(2\pi·5000t))                         |
-| Signal 4 | (1 + \cos(2\pi·2000t) + 2\cos(2\pi·4000t) + 3\cos(2\pi·6000t)) |
+| Signal   | Expression                                                         |
+| -------- | ------------------------------------------------------------------ |
+| Signal 1 | $$(5\cos(2\pi·1000t))$$                                            |
+| Signal 2 | $$(5\cos(2\pi·2000t) + 3\cos(2\pi·3000t))$$                        |
+| Signal 3 | $$(5\cos(2\pi·2000t) + \cos(2\pi·5000t))$$                         |
+| Signal 4 | $$(1 + \cos(2\pi·2000t) + 2\cos(2\pi·4000t) + 3\cos(2\pi·6000t))$$ |
 
 ---
 
@@ -73,9 +73,9 @@ fs = 8000 Hz
 
 The spectrum is **replicated every (f_s)**:
 
-[
+$$[
 X_s(f) = \sum_k X(f - kf_s)
-]
+]$$
 
 Overlapping spectral lines are **summed**, correctly showing aliasing effects.
 
@@ -85,9 +85,9 @@ Overlapping spectral lines are **summed**, correctly showing aliasing effects.
 
 An **ideal LPF** keeps frequencies below:
 
-[
+$$[
 f_c = 1.1 × f_{max}
-]
+]$$
 
 This simulates perfect reconstruction when the **Nyquist condition** is satisfied.
 
